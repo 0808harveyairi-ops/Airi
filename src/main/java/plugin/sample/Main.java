@@ -50,6 +50,7 @@ public final class Main extends JavaPlugin implements Listener {
             // イベント発生時のプレイヤーやワールドなどの情報を変数に持つ。
             Player player = e.getPlayer();
             World world = player.getWorld();
+            player.sendMessage("こんにちは");
 
             if (count % 2 == 0) {
 
